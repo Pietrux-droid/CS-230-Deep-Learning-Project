@@ -2,7 +2,7 @@
 This repository was created for the final CS230 project, focused on predicting electricity market pricing. 
 ## Introduction 
 
-With a growth in electricification of heavily data-reliant business models, grid dispatching, transmission and relibility have now become the cornerstone of the current electrified economy. In this specific sector, Electricity Price Forecasting (EPF) plays an increasing role especially as day-ahead and real-time price forecasting supports better bidding strategies for producers, improves demand response for consumers, and aids grid operators in dispatch decisions.\
+With a growth in electricification of heavily data-reliant business models, grid dispatching, transmission and reliability have now become the cornerstone of the current electrified economy. In this specific sector, Electricity Price Forecasting (EPF) plays an increasing role especially as day-ahead and real-time price forecasting supports better bidding strategies for producers, improves demand response for consumers, and aids grid operators in dispatch decisions.\
 As recent technologies have made renewable energies ubiquitous, their penetration in today's power systems make price preidictions more uncertain and volatile. With those new constrains, EPF constantly provide new tools with the ultimate objective of narrowing the gap between predictions and actual prices. 
 
 ## Goal and Scope
@@ -35,6 +35,9 @@ Deep learning-based approach with a Multilayer Perceptron across European market
 Emphasis “price-aware” learning, i.e., embedding system features that reflect how prices form (supply bids, demand, transmission limits). Instead of treating price as just a time series, they explicitly incorporate network congestion, load levels, and renewable generation into the model.
 - [Paper 7](https://arxiv.org/pdf/1808.05527)
 The first paper about DL for electricity markets which introduces LSTM models on price time sequences
-
+- [Paper 8] (https://www.sciencedirect.com/science/article/pii/S030626191830196X?fr=RR-2&ref=pdf_download&rr=98c78e308fe3eb32)
+Comparison of emeprical algorithms for EPF via Deep Learning apporaches
+- [Paper 9] (https://ieeexplore.ieee.org/document/10258431)
+Machine Learning techniques applied to the NYISO for a physics-aware price predicition
 
 
